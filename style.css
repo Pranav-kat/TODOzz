@@ -383,9 +383,6 @@ i {
     background-color: #f5b2b2;
 }
 
-
-/* Footer */
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -397,55 +394,4 @@ i {
     padding: 1.75rem;
     background-color: var(--prime);
     color: var(--primary-light);
-}
-
-.fa-github {
-    margin-left: 1rem;
-    color: var(--primary-light);
-    font-size: 2rem;
-}
-
-.fa-github:hover {
-    color: #ccc;
-}
-
-
-/* Media queries */
-
-@media (max-width: 1200px) {
-    .project-preview {
-        flex: 3;
-    }
-}
-
-@media (max-width: 850px) {
-    .project-preview {
-        flex: 2;
-    }
-}
-
-@media (max-width: 650px) {
-    .button-open-nav {
-        display: block;
-    }
-    .main {
-        flex-direction: column;
-    }
-    .nav {
-        max-width: 100%;
-        display: none;
-    }
-    .project-preview {
-        flex: 100;
-    }
-    .right-task-panel {
-        justify-content: flex-end;
-        max-width: 30%;
-    }
-}
-
-@media (max-width: 500px) {
-    html {
-        font-size: 57.5%;
-    }
 }
